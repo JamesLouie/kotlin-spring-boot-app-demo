@@ -3,3 +3,6 @@ spring:
     mongodb:
       database: <database name>
       uri: <mongodb connection string>
+server:
+  servlet:
+    contextPath: /api
